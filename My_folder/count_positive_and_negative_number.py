@@ -8,11 +8,12 @@ sum_of_negative_numbers = 0
 while ((user_input < 0 or user_input > 0) and user_input!=0):
      if(user_input < 1):
         negative_number+=1
-     if(user_input>=1):
+        sum_of_negative_numbers += user_input
+     if(user_input>=0):
         positive_number+=1
+        sum_of_positive_numbers+= user_input
+
      sum_of_numbers+=user_input
-     sum_of_positive_numbers+= positive_number
-     sum_of_negative_numbers+= negative_number
      average_of_numbers = sum_of_numbers / count
 
 
