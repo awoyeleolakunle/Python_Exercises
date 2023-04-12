@@ -1,0 +1,14 @@
+count = 0
+largest_number = int("-inf")
+smallest_number= int("+inf")
+user_input = int(input("Enter a number ")
+
+while (count ! =0) :
+    if user_input > largest_number:
+    largest number = userInput
+    if user_input < smallest_number:
+    smallest_number = user_input
+
+    count +=1
+print ("the largest number is", largest_number)
+print ("the smallest number is", smallest_number)
